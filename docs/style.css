@@ -1,0 +1,99 @@
+.titulo {
+    color: limegreen;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://i.imgur.com/gXwAStV.png");
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid gray;
+    margin: 0;
+  position: relative;
+  top: -20px;
+}
+
+.botão1 {
+position: absolute;
+  top: 490px;
+  left: 50%;
+transform: translateX(-50%);
+  width: 150px;
+  height: 40px;
+  padding-top: 7px;
+  font-size: 25px;
+  text-align: center;
+    color: white;
+  border: 2px solid limegreen;
+    background-color: dimgray;
+  border-radius: 10px;
+}
+
+.botão2 {
+  position: absolute;
+  top: 370px;
+  left: 50%;
+transform: translateX(-50%);
+  width: 150px;
+  height: 40px;
+  padding-top: 7px;
+  font-size: 25px;
+  text-align: center;
+    color: white;
+  border: 2px solid limegreen;
+    background-color: dimgray;
+  border-radius: 10px;
+}
+
+.botão3 {
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    padding-top: 12px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    border: 2px solid limegreen;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url("https://i.imgur.com/mxHR8oC.jpeg");
+        background-size: cover;
+        background-position: center 0px;
+    background-repeat: no-repeat;
+    }
+.titulo {
+  font-size: 50px;
+}
+    .botão2 {
+        top: 300px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .botão3 {
+        top: 400px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .botão1 {
+        top: 500px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+}
