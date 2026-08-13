@@ -1,0 +1,508 @@
+.menu-principal .titulo {
+    color: limegreen;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-principal {
+    background-image: url("https://i.imgur.com/gXwAStV.png");
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.menu-principal hr {
+    border: none;
+    border-top: 2px solid gray;
+    margin: 0;
+    position: relative;
+    top: -20px;
+}
+
+.menu-principal .botão1 {
+    transition: transform 0.15s;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 468px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    padding-top: 7px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid limegreen;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+.menu-principal .botão1:active {
+    transform: translateX(-50%) scale(0.8);
+    background-color: limegreen;
+    border-color: white;
+}
+
+.menu-principal .botão2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    padding-top: 7px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    border: 2px solid limegreen;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+.menu-principal .botão3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 410px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    padding-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid limegreen;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+.menu-principal .titulo2 {
+    position: relative;
+    top: 170px;
+    text-align: center;
+    color: limegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.novo-jogo {
+    background-color: #212429;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.novo-jogo .newgame {
+    color: limegreen;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0 10px;
+}
+
+.novo-jogo .mensagem-de-dinastia {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0 20px;
+}
+
+.novo-jogo hr {
+    border: none;
+    border-top: 2px solid gray;
+    width: 100%;
+    margin: 0 0 25px;
+}
+
+.novo-jogo label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin: 0 0 5px 10px;
+}
+
+.novo-jogo input {
+    display: block;
+    box-sizing: border-box;
+    width: 335px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: dimgray;
+    color: white;
+    border: 2px solid limegreen;
+    border-radius: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.novo-jogo .et {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 45px 0 10px;
+}
+
+.novo-jogo .times {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+
+.novo-jogo .time {
+    width: 100%;
+    background-color: dimgray;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.novo-jogo .time:active {
+    transform: scale(0.95);
+}
+
+.novo-jogo .time.selecionado {
+    background-color: limegreen;
+    border-color: white;
+}
+
+.novo-jogo .logo {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #212429;
+    border: 2px solid limegreen;
+    color: limegreen;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.novo-jogo .time.selecionado .logo {
+    border-color: white;
+    color: white;
+}
+
+.novo-jogo .time p {
+    color: white;
+    font-size: 18px;
+    margin: 8px 0 0;
+}
+
+.novo-jogo .começar-jogo {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 30px auto 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    background-color: dimgray;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.novo-jogo .começar-jogo:active {
+    transform: scale(0.85);
+    background-color: limegreen;
+    border-color: white;
+}
+
+.menu-jogo {
+    background: #111315;
+    margin: 0;
+    padding: 0 0 100px;
+    min-height: 100vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-jogo .topo-jogo {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.menu-jogo .logo-time {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #111315;
+    border: 2px solid limegreen;
+    color: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu-jogo .info-time h1 {
+    margin: 0;
+    color: white;
+    font-size: 27px;
+}
+
+.menu-jogo .info-time p {
+    margin: 3px 0 0;
+    color: #999;
+    font-size: 15px;
+}
+
+.menu-jogo .painel-principal {
+    padding: 25px 20px;
+}
+
+.menu-jogo .painel-principal h2 {
+    margin: 0;
+    color: limegreen;
+    font-size: 38px;
+}
+
+.menu-jogo .subtitulo {
+    margin: 5px 0 0;
+    color: #999;
+    font-size: 17px;
+}
+
+.menu-jogo .resumo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.menu-jogo .resumo div {
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.menu-jogo .resumo span {
+    display: block;
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.menu-jogo .resumo strong {
+    color: white;
+    font-size: 18px;
+}
+
+.menu-jogo .proximo-jogo {
+    margin-top: 25px;
+    padding: 25px 15px;
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.menu-jogo .proximo-jogo p {
+    color: limegreen;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.menu-jogo .proximo-jogo h3 {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+.menu-jogo .proximo-jogo span {
+    color: limegreen;
+    font-weight: bold;
+}
+
+.menu-jogo .proximo-jogo small {
+    display: block;
+    color: #777;
+    margin-top: 20px;
+}
+
+.menu-jogo .barra-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #212429;
+    border-top: 2px solid #333;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    z-index: 10;
+}
+
+.menu-jogo .menu-item {
+    border: none;
+    background: transparent;
+    color: #888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu-jogo .menu-item span {
+    display: block;
+    color: #aaa;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.menu-jogo .menu-item:first-child {
+    color: limegreen;
+}
+
+.menu-jogo .menu-item:first-child span {
+    color: limegreen;
+}
+
+.menu-jogo .menu-item:active {
+    background: #30343a;
+}
+
+@media (min-width: 768px) {
+
+    .menu-principal {
+        background-image: url("https://i.imgur.com/mxHR8oC.jpeg");
+        background-size: cover;
+        background-position: center 0;
+        background-repeat: no-repeat;
+    }
+
+    .menu-principal .titulo {
+        font-size: 50px;
+    }
+
+    .menu-principal .titulo2 {
+        top: 85px;
+        font-size: 30px;
+    }
+
+    .menu-principal .botão2 {
+        top: 300px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .menu-principal .botão3 {
+        top: 400px;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .menu-principal .botão1 {
+        top: 500px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .novo-jogo .newgame {
+        font-size: 50px;
+    }
+
+    .novo-jogo .mensagem-de-dinastia {
+        font-size: 30px;
+    }
+
+    .novo-jogo input {
+        width: 400px;
+    }
+
+    .novo-jogo .et {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    .novo-jogo .times {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .novo-jogo .logo {
+        width: 100px;
+        height: 100px;
+        font-size: 55px;
+    }
+
+    .novo-jogo .time p {
+        font-size: 22px;
+    }
+
+    .menu-jogo .topo-jogo {
+        height: 100px;
+        padding: 0 40px;
+    }
+
+    .menu-jogo .logo-time {
+        width: 65px;
+        height: 65px;
+        font-size: 38px;
+    }
+
+    .menu-jogo .info-time h1 {
+        font-size: 32px;
+    }
+
+    .menu-jogo .painel-principal {
+        max-width: 900px;
+        margin: auto;
+        padding-top: 45px;
+    }
+
+    .menu-jogo .painel-principal h2 {
+        font-size: 48px;
+    }
+
+    .menu-jogo .resumo {
+        gap: 20px;
+    }
+
+    .menu-jogo .resumo div {
+        padding: 20px;
+    }
+
+  
+    .menu-jogo .barra-menu {
+        height: 90px;
+        padding: 0 20%;
+        box-sizing: border-box;
+    }
+
+    .menu-jogo .menu-item {
+        font-size: 15px;
+    }
+
+    .menu-jogo .menu-item span {
+        font-size: 27px;
+    }
+  }
