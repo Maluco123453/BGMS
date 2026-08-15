@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>BGMS | Configurações</title>
+</head>
+
+<body class="configuracoes">
+
+    <h1>Configurações</h1>
+
+    <div class="config-item">
+
+        <label for="dificuldade">Dificuldade</label>
+
+        <select id="dificuldade">
+            <option value="facil">Fácil</option>
+            <option value="normal" selected>Normal</option>
+            <option value="dificil">Difícil</option>
+        </select>
+
+    </div>
+
+    <div class="config-item">
+
+        <label for="lesoes">Lesões</label>
+
+        <select id="lesoes">
+            <option value="sim" selected>Ativadas</option>
+            <option value="nao">Desativadas</option>
+        </select>
+
+    </div>
+
+    <div class="config-item">
+
+        <label for="trade">Dificuldade de trocas</label>
+
+        <select id="trade">
+            <option value="facil">Fácil</option>
+            <option value="normal" selected>Normal</option>
+            <option value="dificil">Difícil</option>
+        </select>
+
+    </div>
+
+    <button class="botao-jogo" id="salvar-config">Salvar</button>
+
+</body>
+
+</html>
