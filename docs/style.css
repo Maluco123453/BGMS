@@ -1,0 +1,999 @@
+.menu-principal .titulo {
+    color: limegreen;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-principal {
+    background-image: url("https://i.imgur.com/gXwAStV.png");
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+}
+
+.menu-principal hr {
+    border: none;
+    border-top: 2px solid gray;
+    margin: 0;
+    position: relative;
+    top: -20px;
+}
+
+.menu-principal .botão1,
+.menu-principal .botão2,
+.menu-principal .botão3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border: 2px solid limegreen;
+    background-color: dimgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu-principal .botão1 {
+    top: 468px;
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu-principal .botão2 {
+    top: 350px;
+    padding-top: 7px;
+    font-size: 25px;
+}
+
+.menu-principal .botão3 {
+    top: 410px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.menu-principal .botão1:active,
+.menu-principal .botão2:active,
+.menu-principal .botão3:active {
+    transform: translateX(-50%) scale(0.85);
+    background-color: limegreen;
+    border-color: white;
+}
+
+.menu-principal .titulo2 {
+    position: relative;
+    top: 170px;
+    text-align: center;
+    color: limegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.novo-jogo {
+    background-color: #212429;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.novo-jogo .newgame {
+    color: limegreen;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0 10px;
+}
+
+.novo-jogo .mensagem-de-dinastia {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0 20px;
+}
+
+.novo-jogo hr {
+    border: none;
+    border-top: 2px solid gray;
+    width: 100%;
+    margin: 0 0 25px;
+}
+
+.novo-jogo label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin: 0 0 5px 10px;
+}
+
+.novo-jogo input {
+    display: block;
+    box-sizing: border-box;
+    width: 335px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: dimgray;
+    color: white;
+    border: 2px solid limegreen;
+    border-radius: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+    outline: none;
+}
+
+.novo-jogo input:focus {
+    border-color: white;
+}
+
+.novo-jogo .et {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 45px 0 10px;
+}
+
+.novo-jogo .times {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+
+.novo-jogo .time {
+    width: 100%;
+    background-color: dimgray;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.novo-jogo .time:active {
+    transform: scale(0.95);
+}
+
+.novo-jogo .time.selecionado {
+    background-color: limegreen;
+    border-color: white;
+}
+
+.novo-jogo .logo {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #212429;
+    border: 2px solid limegreen;
+    color: limegreen;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.novo-jogo .time.selecionado .logo {
+    border-color: white;
+    color: white;
+}
+
+.novo-jogo .time p {
+    color: white;
+    font-size: 18px;
+    margin: 8px 0 0;
+}
+
+.novo-jogo .começar-jogo {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 30px auto 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    background-color: dimgray;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.novo-jogo .começar-jogo:active {
+    transform: scale(0.85);
+    background-color: limegreen;
+    border-color: white;
+}
+
+.menu-jogo {
+    background: #111315;
+    margin: 0;
+    padding: 0 0 100px;
+    min-height: 100vh;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-jogo .topo-jogo {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.menu-jogo .logo-time {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #111315;
+    border: 2px solid limegreen;
+    color: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu-jogo .info-time h1 {
+    margin: 0;
+    color: white;
+    font-size: 27px;
+}
+
+.menu-jogo .info-time p {
+    margin: 3px 0 0;
+    color: #999;
+    font-size: 15px;
+}
+
+.menu-jogo .painel-principal {
+    padding: 25px 20px;
+}
+
+.menu-jogo .painel-principal h2 {
+    margin: 0;
+    color: limegreen;
+    font-size: 38px;
+}
+
+.menu-jogo .subtitulo {
+    margin: 5px 0 0;
+    color: #999;
+    font-size: 17px;
+}
+
+.menu-jogo .resumo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.menu-jogo .resumo div {
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.menu-jogo .resumo span {
+    display: block;
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.menu-jogo .resumo strong {
+    color: white;
+    font-size: 18px;
+}
+
+.menu-jogo .proximo-jogo {
+    margin-top: 25px;
+    padding: 25px 15px;
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.menu-jogo .proximo-jogo p {
+    color: limegreen;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.menu-jogo .proximo-jogo h3 {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+.menu-jogo .proximo-jogo span {
+    color: limegreen;
+    font-weight: bold;
+}
+
+.menu-jogo .proximo-jogo small {
+    display: block;
+    color: #777;
+    margin-top: 20px;
+}
+
+.barra-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #212429;
+    border-top: 2px solid #333;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    z-index: 10;
+}
+
+.menu-item {
+    border: none;
+    background: transparent;
+    color: #888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-item span {
+    display: block;
+    color: #aaa;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.menu-item.ativo {
+    color: limegreen;
+}
+
+.menu-item.ativo span {
+    color: limegreen;
+}
+
+.menu-item:active {
+    background: #30343a;
+}
+
+.elenco {
+    background: #111315;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.elenco .elenco-header {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.elenco .elenco-header h1 {
+    margin: 0;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.elenco .elenco-header p {
+    margin: 3px 0 0;
+    color: #999;
+    font-size: 15px;
+}
+
+.elenco .lista-jogadores {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.elenco .jogador {
+    display: flex;
+    align-items: center;
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.elenco .jogador-logo {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #111315;
+    border: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: limegreen;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.elenco .jogador-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.elenco .jogador-nome {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.elenco .jogador-posicao {
+    display: block;
+    color: limegreen;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.elenco .jogador-ovr {
+    color: limegreen;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.jogos {
+    background: #111315;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jogos .topo-pagina {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.jogos .topo-pagina h1 {
+    margin: 0;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.jogos .controles-jogos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.jogos .controle-jogo {
+    background: #212429;
+    color: white;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    padding: 12px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jogos .controle-jogo:active {
+    background: limegreen;
+    transform: scale(0.95);
+}
+
+.jogos .lista-jogos {
+    display: grid;
+    gap: 10px;
+    padding: 0 20px 20px;
+}
+
+.jogos .jogo {
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.jogos .jogo .data {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.jogos .jogo .confronto {
+    font-size: 18px;
+}
+
+.jogos .jogo .resultado {
+    color: limegreen;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.calendario {
+    background: #111315;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.calendario > h1 {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.calendario .controles-calendario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.calendario .botao-jogo {
+    min-height: 45px;
+    background: #212429;
+    color: white;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    padding: 12px 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.calendario .botao-jogo:active {
+    background: limegreen;
+    border-color: white;
+    transform: scale(0.95);
+}
+
+#lista-calendario {
+    display: grid;
+    gap: 10px;
+    padding: 0 20px 20px;
+}
+
+.jogo-calendario {
+    display: grid;
+    grid-template-columns: 60px 1fr 45px;
+    align-items: center;
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.jogo-calendario .data {
+    color: #888;
+    font-size: 13px;
+}
+
+.jogo-calendario .adversario {
+    color: white;
+    font-size: 17px;
+}
+
+.jogo-calendario .resultado {
+    color: limegreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+.liga {
+    background: #111315;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.liga .topo-pagina {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.liga .topo-pagina h1 {
+    margin: 0;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.liga .classificacao {
+    padding: 20px;
+}
+
+.liga .classificacao h2 {
+    color: white;
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+
+.liga .titulo-oeste {
+    margin-top: 30px !important;
+}
+
+.liga .classificacao-titulo {
+    display: grid;
+    grid-template-columns: 1fr 55px 55px;
+    align-items: center;
+    padding: 10px 12px;
+    color: #888;
+    font-size: 13px;
+}
+
+.liga .classificacao-titulo span:nth-child(2),
+.liga .classificacao-titulo span:nth-child(3) {
+    text-align: center;
+}
+
+.liga .classificacao-time {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr) 55px 55px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 8px;
+    padding: 13px 12px;
+    margin-bottom: 7px;
+}
+
+.liga .classificacao-time .posicao {
+    color: #888;
+}
+
+.liga .classificacao-time .nome {
+    color: white;
+    min-width: 0;
+}
+
+.liga .classificacao-time .vitorias,
+.liga .classificacao-time .derrotas {
+    color: white;
+    text-align: center;
+    display: block;
+    white-space: nowrap;
+}
+
+.mais {
+    background: #111315;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mais .topo-pagina {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.mais .topo-pagina h1 {
+    margin: 0;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.mais .mais-opcoes {
+    display: grid;
+    gap: 12px;
+    padding: 20px;
+}
+
+.mais .mais-opcao {
+    width: 100%;
+    height: 60px;
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    padding: 0 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mais .mais-opcao:active {
+    background: limegreen;
+    border-color: white;
+    transform: scale(0.97);
+}
+
+.configuracoes {
+    background: #111315;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 0 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.configuracoes > h1 {
+    height: 85px;
+    background: #212429;
+    border-bottom: 2px solid limegreen;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    color: limegreen;
+    font-size: 30px;
+}
+
+.configuracoes .config-item {
+    background: #212429;
+    border: 1px solid #3b3f44;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 20px 20px 10px;
+}
+
+.configuracoes .config-item label {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.configuracoes .config-item select {
+    width: 100%;
+    height: 40px;
+    background: dimgray;
+    border: 1px solid limegreen;
+    border-radius: 7px;
+    color: white;
+    padding: 0 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.configuracoes .config-item select:focus {
+    border-color: white;
+}
+
+.configuracoes .botao-jogo {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 25px auto 40px;
+    background: #212429;
+    color: white;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.configuracoes .botao-jogo:active {
+    background: limegreen;
+    border-color: white;
+    transform: scale(0.95);
+}
+
+@media (min-width: 768px) {
+
+    .menu-principal {
+        background-image: url("https://i.imgur.com/mxHR8oC.jpeg");
+        background-size: cover;
+        background-position: center 0px;
+        background-repeat: no-repeat;
+    }
+
+    .menu-principal .titulo {
+        font-size: 50px;
+    }
+
+    .menu-principal .titulo2 {
+        top: 85px;
+        font-size: 30px;
+    }
+
+    .menu-principal .botão2 {
+        top: 300px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .menu-principal .botão3 {
+        top: 400px;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .menu-principal .botão1 {
+        top: 500px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .novo-jogo .newgame {
+        font-size: 50px;
+    }
+
+    .novo-jogo .mensagem-de-dinastia {
+        font-size: 30px;
+    }
+
+    .novo-jogo input {
+        width: 400px;
+    }
+
+    .novo-jogo .et {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    .novo-jogo .times {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .novo-jogo .logo {
+        width: 100px;
+        height: 100px;
+        font-size: 55px;
+    }
+
+    .novo-jogo .time p {
+        font-size: 22px;
+    }
+
+    .menu-jogo .topo-jogo {
+        height: 100px;
+        padding: 0 40px;
+    }
+
+    .menu-jogo .logo-time {
+        width: 65px;
+        height: 65px;
+        font-size: 38px;
+    }
+
+    .menu-jogo .info-time h1 {
+        font-size: 32px;
+    }
+
+    .menu-jogo .painel-principal {
+        max-width: 900px;
+        margin: auto;
+        padding-top: 45px;
+    }
+
+    .menu-jogo .painel-principal h2 {
+        font-size: 48px;
+    }
+
+    .menu-jogo .resumo {
+        gap: 20px;
+    }
+
+    .menu-jogo .resumo div {
+        padding: 20px;
+    }
+
+    .barra-menu {
+        height: 90px;
+        padding: 0 20%;
+        box-sizing: border-box;
+    }
+
+    .menu-item {
+        font-size: 15px;
+    }
+
+    .menu-item span {
+        font-size: 27px;
+    }
+
+    .elenco .lista-jogadores {
+        max-width: 900px;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .elenco .elenco-header {
+        height: 100px;
+        padding: 0 40px;
+    }
+
+    .elenco .elenco-header h1 {
+        font-size: 34px;
+    }
+
+    .jogos .lista-jogos {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .jogos .controles-jogos {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .calendario .controles-calendario,
+    #lista-calendario {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .liga .classificacao {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .mais .mais-opcoes,
+    .configuracoes .config-lista {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .configuracoes .config-item {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
